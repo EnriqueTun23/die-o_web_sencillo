@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <!-- aqui enpieza el navbar -->
+    <nav class="fadeInDown">
+        <div class="brand_image">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Producto y descripcion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- aqui acacaba el navbar     -->
+    <!-- container formulario venta -->
+    <section class="container salto">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                    <div class="modulo_pago_images">
+                        <img src="img/box2.png">
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat sed, est suscipit iste saepe harum!</p>
+
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo_pago">
+                    <form action='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XUH2Q3TMJRUP2' method="POST">
+                        <label for='nombre'>Nombre:</label>
+                        <input type='text' id='nombre' name='name' class="dataInput" />
+                        <br><br>
+                        <label for='email'>Email:</label>
+                        <input type='email' id='email' name='email' class="dataInput" />
+                        <br><br>
+                        <label for='phone'>Telefono:</label>
+                        <input type='tel' id='telefono' name='phone' class="dataInput" />
+                        <br>
+                        <input type="submit" class="main_button" name="submit" value="Confirmar pago">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- container formulario venta -->
+
+    <footer>
+        <div class="option">Terminos y condiciones</div>
+        <div class="option">quiquejesus23@gmail.com</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

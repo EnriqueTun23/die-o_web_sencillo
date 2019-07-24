@@ -1,0 +1,200 @@
+  /* variables */
+  
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+   :root {
+      --green-color: #7ACC2D;
+      --white-color: white;
+      --black-color: #000;
+      /* tipografia */
+      --normal: 12px;
+      /* espaciado */
+      --space: 10px;
+      /* Box shadow */
+      --box: 0 0 2px #bbbbbb;
+  }
+  
+  html,
+  body {
+      padding: 0px;
+      margin: 0px;
+      background: salmon;
+      font-size: var(--normal);
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav {
+      display: flex;
+      background-color: var(--green-color);
+      padding: var(--space);
+      color: var(--white-color);
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  nav ul {
+      display: flex;
+  }
+  
+  nav li {
+      padding-left: 20px;
+      list-style: none;
+  }
+  
+  nav li a {
+      color: var(--black-color);
+      text-decoration: none;
+  }
+  
+  nav li a:hover {
+      color: var(--white-color);
+  }
+  
+  label {
+      font-size: var(--normal);
+      padding-top: 6px;
+  }
+  /* main section */
+  
+  .main_section {
+      padding: 15%;
+      text-align: center;
+  }
+  
+  .products {
+      background-image: url("../img/curve.png");
+      height: 50px;
+      background-size: cover;
+      background-position: center top;
+      padding: 20%;
+      display: flex;
+  }
+  
+  .product {
+      padding: var(--space);
+      margin-top: -290px;
+  }
+  
+  .product .content {
+      background-color: var(--white-color);
+      padding: 15px;
+      box-shadow: var(--box);
+  }
+  
+  .img_content {
+      text-align: center;
+  }
+  
+  .main_button {
+      background-color: var(--green-color);
+      width: 100%;
+      padding: var(--space);
+      font-size: 17px;
+      color: var(--white-color);
+      border: 0;
+      cursor: pointer;
+      border-radius: 2px;
+  }
+  
+  .main_button:hover {
+      background-color: #5e9e27;
+  }
+  
+  .main_button p {
+      font-size: 12px;
+  }
+  /* caracterisiticas */
+  
+  .caracteristicas {
+      display: flex;
+      padding: 10%;
+      /* height: 200px; */
+  }
+  
+  .data {
+      padding: 20px;
+      margin: 10px;
+      background-color: var(--white-color);
+      height: 280px;
+  }
+  
+  .data h1 {
+      text-align: center;
+  }
+  /* end caracteristicas */
+  /* mentios */
+  
+  .mentions h2 {
+      text-align: center;
+      color: var(--white-color);
+      font-size: 35px;
+  }
+  
+  .mentions .section {
+      padding: 10px;
+      margin: 10px;
+      height: 250px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .mentions .section .section-person {
+      box-shadow: var(--box);
+      width: 20%;
+      background-color: var(--white-color)
+  }
+  
+  .mentions .section .section-person .person-img {
+      width: 100%;
+  }
+  
+  .mentions .section .section-person .person-img img {
+      width: 100%;
+  }
+  
+  .mentions .section .section-person h3 {
+      text-align: center;
+  }
+  /* ------------------------------------------- Venta */
+  
+  .salto {
+      margin-top: 10%;
+      margin-bottom: 5%;
+  }
+  
+  .modulo_pago {
+      background-color: var(--white-color);
+      box-shadow: var(--box);
+      padding: var(--space);
+  }
+  
+  .dataInput {
+      width: 100%;
+      margin-top: var(--space);
+      height: 35px;
+      border-radius: 2px;
+      border: 1px solid var(--black-color);
+      box-sizing: border-box;
+  }
+  
+  .modulo_pago .main_button {
+      margin-top: 10px;
+  }
+  
+  .modulo_pago_images {
+      max-width: 150px;
+      margin: auto;
+  }
+  /* ------------------------------------------- Footer */
+  
+  footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: var(--normal);
+      background-color: var(--black-color);
+      padding: var(--space);
+      color: var(--white-color);
+  }
+  
+  .contact a {
+      color: var(--green-color);
+  }
